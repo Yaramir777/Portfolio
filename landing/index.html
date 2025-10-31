@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing</title>
+    <title>Портфолио верстальщика</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <header class="header">
+        <p>Портфолио</p>
+        <nav>
+            <a href="#about">Обо мне</a>
+            <a href="#projects">Проекты</a>
+            <a href="#skills">Навыки</a>
+        </nav>
+        <button>связаться</button>
+    </header>
+
+    <main class="main">
+        <section class="hero">
+            <h1>HTML/CSS-верстальщик</h1>
+            <h2>Верстаю лендинги, карточки, формы</h2>
+            <button>Смотреть работы</button>
+        </section>
+
+        <section class="about" id="about">
+            <p>Начинающий web-разработчик</p>
+            <p>изучаю Frontend разработку и верстку HTML/CSS</p>
+            <p>Умею создавать адаптивные страницы на HTML5, CSS3 и JavaScript, применять Flexbox, Grid, методологию BEM, работать с Git/GitHub.</p>
+        </section>
+
+        <section class="projects" id="projects">
+            <a href="./index.html" class="project-card">Лендинг (эта страница)</a>
+            <a href="../cards/index.html" class="project-card">Карточки</a>
+            <a href="../form/index.html" class="project-card">Форма</a>
+        </section>
+
+        <section class="skills" id="skills">
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Адаптив</li>
+                <li>Flex</li>
+                <li>Grid</li>
+                <li>JS (базовый)</li>
+            </ul>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/Yaramir777" target="_blank">GitHub</a>
+        <a href="https://t.me/@Front_Wild">Telegram</a>
+        <p>	&copy; Ярамир</p>
+    </footer>
 </body>
 </html>

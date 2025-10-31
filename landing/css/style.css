@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: #222;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+}
+
+a {
+color: #0078ff;
+text-decoration: none;
+transition: color 0.2s e;
+}
+
+a:hover {
+    color: #0056b3;
+}
+button {
+    cursor: pointer;
+    padding: 0.5em 1em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: white;
+}
+
+.header nav a {
+    margin: 0 10px;
+    /* color: #333; */
+}
+
+.header button {
+    background: rgb(108, 233, 108);
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 10%;
+    background-color: #e3f2fd;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+}
+
+.hero h2 {
+    margin-top: 10px;
+    font-weight: normal;
+    color: #555;
+}
+
+.hero button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 50px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.about {
+    padding: 60px 10%;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.projects {
+padding: 60px 10%;
+background-color: #f0f0f0;
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+}
+
+.project-card {
+    display: block;
+    width: 200px;
+    height: 120px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 120px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.skills {
+    padding: 60px 10%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #e3f2fd;
+    padding: 15px 25px;
+    border-radius:  8px;
+    font-weight: bold;
+    color: #222;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+.skills li:hover {
+    background-color: #bbdefb;
+}
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 30px 10%;
+}
+
+.footer a {
+    color: #90caf9;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #bbb;
+}
