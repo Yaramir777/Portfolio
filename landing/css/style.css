@@ -11,6 +11,10 @@ body {
     line-height: 1.6;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
 color: #0078ff;
 text-decoration: none;
@@ -55,7 +59,6 @@ a:hover {
 
 .contact-btn:hover {
     color: white;
-    border: 2px solid green;
 }
 
 .contact-btn > * {
