@@ -1,0 +1,103 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 60px 10%;
+    background-color: #f7f7f7;
+}
+
+.card {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    /* min-height: 300px; */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h3 {
+    font-size: 1.2rem;
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+    padding: 0 15px 10px;
+}
+
+.card .btn {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: #0078ff;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.card .btn:hover {
+    background-color: #0056b3;
+}
+
+.card-content {
+  flex-grow: 1;
+  padding: 0 15px;
+}
+
+
+.footer-cards {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 30px 10%;
+}
+
+.footer a {
+    color: #90caf9;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer p {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #bbb; 
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+}
