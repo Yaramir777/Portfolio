@@ -286,3 +286,70 @@ body {
     border-radius: 12px;
 }
 }
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 0 15px;
+    }
+
+    header {
+        padding: 15px 0;
+    }
+
+    .main {
+        padding: 20px 15px;
+    }
+
+    .my-info {
+        margin-bottom: 25px;
+    }
+
+    .my-img img {
+        max-width: 260px;
+        margin: 0 auto 20px;
+        display: block;
+    }
+
+    .sections {
+        padding: 20px 15px;
+    }
+
+    .sections h2 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .sections p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        padding: 0 10px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .my-img img {
+        max-width: 220px;
+        border-radius: 12px;
+    }
+
+    .sections {
+        margin-bottom: 35px;
+    }
+
+    .sections h2 {
+        font-size: 20px;
+    }
+
+    .sections p {
+        font-size: 15px;
+    }
+}

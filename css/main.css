@@ -84,3 +84,59 @@ body{
     font-size: 17px;
     color: #444;
 }
+
+@media (max-width: 768px) {
+    .head_main {
+        padding: 25px 20px;
+    }
+
+    .head_header h1 {
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+
+    .head_main p {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .head_section,
+    .head_section2 {
+        margin-top: 30px;
+    }
+
+    .head_section h2,
+    .head_section2 h2 {
+        font-size: 20px;
+        margin-bottom: 12px;
+        padding-bottom: 4px;
+    }
+
+    .head_section li {
+        margin-bottom: 15px;
+    }
+
+    .head_section a {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    .head_main {
+        padding: 20px 15px;
+        border-radius: 10px;
+    }
+
+    .head_header h1 {
+        font-size: 24px;
+    }
+
+    .head_section a,
+    .head_section2 span {
+        font-size: 16px;
+    }
+}

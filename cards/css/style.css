@@ -180,3 +180,80 @@ body {
 .cards {
     flex: 1;
 }
+
+.cards-wrapper {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.card {
+    background: #fff;
+    padding: 18px;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.card button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #1678ff;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #0f5fcc;
+}
+
+
+@media (max-width: 480px) {
+
+    .cards-wrapper {
+        gap: 20px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card img {
+        border-radius: 10px;
+        max-height: 200px;
+        object-fit: cover;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-text {
+        font-size: 15px;
+    }
+}
